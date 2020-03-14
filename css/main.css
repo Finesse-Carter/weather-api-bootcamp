@@ -1,0 +1,51 @@
+*{
+    box-sizing: border-box;
+}
+html{
+   font: 10px; 
+}
+body{
+    width: 100%;
+    background-image: url("../weather.jpg");
+}
+header {
+    width: 100%;
+    height: 5rem;
+    background-color: rgb(176, 196, 196);
+    color: black;
+    text-align: center;
+    padding-top: 1px;
+    clear: both;
+}
+li{
+    list-style: none;
+    font-size: 2rem;
+    float: left;
+    padding-left: 32px;
+    margin-bottom: 1rem;
+}
+form {
+    width: 50%;
+    border: 1px solid black;
+    display: contents;
+}
+input{
+    width: 30%;
+clear: both;
+margin-left: 30rem;
+}
+button{
+    width: 10%;
+}
+.list {
+    width: 100%;
+    margin-bottom: 5rem;
+    
+}
+#name{
+text-align: center;
+padding-left: 30rem;
+}
+#country{
+text-align: center;
+}
